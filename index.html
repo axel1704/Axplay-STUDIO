@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mis Películas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="barra-superior">
+      <img src="axplay.png" alt="Logo" class="logo">
+      <h1>🎬AxPlay STUDIO🎬</h1>
+      <input type="text" id="buscador" placeholder="Buscar películas...">
+    </div>
+  </header>
+
+  <main>
+    <section class="fila">
+      <section class="tendencias">
+        <h2>🔥 Tendencias 🔥</h2>
+        <div class="carrusel" id="carrusel-tendencias">
+          <!-- Las películas se insertan con JS -->
+        </div>
+      </section>
+
+      <h2>🔝RECOMENDADAS🔝</h2>
+      <div class="pelis-contenedor" id="pelis-recomendadas"></div>
+    </section>
+  </main>
+
+  <section class="fila">
+    <h2>🎯 ACCION 🎯</h2>
+    <div class="pelis-contenedor" id="pelis-accion"></div>
+  </section>
+
+  <section class="fila">
+    <h2>😂 Comedia 😂</h2>
+    <div class="pelis-contenedor" id="pelis-comedia"></div>
+  </section>
+
+  <section class="fila">
+    <h2>👻 Terror 👻</h2>
+    <div class="pelis-contenedor" id="pelis-terror"></div>
+  </section>
+
+  <footer>
+    <p>&copy;⭐ FILM HD AxPlay STUDIO ⭐ 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
