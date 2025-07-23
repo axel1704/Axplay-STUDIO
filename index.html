@@ -3,19 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mis Películas</title>
+  <title>AxPlay STUDIO</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <body>
   <header>
-    <div class="barra-superior">
-      <img src="axplay.png" alt="Logo" class="logo">
-      <h1>🎬AxPlay STUDIO🎬</h1>
-      <input type="text" id="buscador" placeholder="Buscar películas...">
-    </div>
-  </header>
+  <div class="barra-superior">
+    <img src="https://i.postimg.cc/VdZwtT0t/axplay.png" alt="AxPlay Logo" class="logo">
+    <h1>🎬AxPlay STUDIO🎬</h1>
+    <input type="text" id="buscador" placeholder="Buscar películas...">
+  </div>
+</header>
 
-  <main>
+<div id="reproductor" style="display:none; max-width: 1000px; margin: auto;">
+  <video id="video-player" width="100%" height="500" controls></video>
+</div>
+
+  <main
     <section class="fila">
       <section class="tendencias">
         <h2>🔥 Tendencias 🔥</h2>
@@ -48,6 +53,20 @@
     <p>&copy;⭐ FILM HD AxPlay STUDIO ⭐ 2025</p>
   </footer>
 
+  <div class="peliculas">
+  <img src="https://i.postimg.cc/Wt8DCP91/Deadpool.jpg" 
+       alt="Deadpool"
+       class="pelicula"
+       data-video="https://vide0.net/e/2kqi66h8drcr">
+</div>
+
   <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+
+  <link rel="manifest" href="/manifest.json" />
+<meta name="theme-color" content="#0d6efd">
+
+
 </body>
 </html>
