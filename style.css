@@ -143,5 +143,17 @@ footer {
   object-fit: cover;
   display: block;
 }
+.pelicula {
+  cursor: pointer;
+  width: 200px;
+  transition: transform 0.2s ease;
+}
+.pelicula:hover {
+  transform: scale(1.05);
+}
 
-
+.reproductor {
+  display: none; /* oculto al principio */
+  max-width: 900px;
+  margin: 40px auto;
+}
